@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="MIS_NO_ACTIONBAR" parent="Theme.AppCompat.Light.NoActionBar"></style>
+    <style name="MIS_NO_ACTIONBAR" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/mis_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/mis_colorPrimaryDark</item>
+        <item name="colorAccent">@color/mis_colorAccent</item>
+    </style>
+
+    <style name="MIS_APP_THEME" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/mis_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/mis_colorPrimaryDark</item>
+        <item name="colorAccent">@color/mis_colorAccent</item>
+    </style>
 </resources>

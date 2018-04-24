@@ -18,10 +18,11 @@
     <RelativeLayout
         android:clickable="true"
         android:id="@+id/footer"
-        android:background="#cc000000"
+        android:background="@color/mis_colorPrimary"
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize">
+        <!--android:background="#cc000000"-->
 
         <Button
             android:id="@+id/category_btn"
